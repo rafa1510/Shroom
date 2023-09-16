@@ -1,12 +1,13 @@
+let timesClicked = 0;
+
 function openTopic() {
-    document.getElementByID("mySideBar").style.width = "250px";
-    document.getElementByID("middle").style.marginLeft = "250px";
-    document.getElementByID("right").style.marginleft = "250px"
-}
+    timesClicked++;
 
-function closeTopic() {
-    document.getElementByID("mySidebar").style.width = "0";
-    document.getElementByID("middle").style.marginLeft = "0";
-    document.getElementByID("right").style.marginleft = "0"
+    if (timesClicked%2==0) {
+        document.getElementById("test").style.width = "0";
+        document.getElementById("test").style.padding = "0";
+    } else {
+        document.getElementById("test").style.width = "auto";
+        document.getElementById("test").style.padding = "0px 10px";
+    }
 }
-
