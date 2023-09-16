@@ -7,7 +7,7 @@ function openTopic() {
         document.getElementById("test").style.width = "0";
         document.getElementById("test").style.padding = "0";
     } else {
-        document.getElementById("test").style.width = "auto";
+        document.getElementById("test").style.width = "8%";
         document.getElementById("test").style.padding = "0px 10px";
     }
 }
