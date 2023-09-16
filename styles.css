@@ -2,6 +2,9 @@
 
 * {
     font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Styling for Homepage */
@@ -120,33 +123,42 @@
     font-size: 13px;
 }
 
-.leftmiddle_sidebar {
+/*Collapsing sidebar Styling */
+
+.collapsing_sidebar {
     height: 100%;
     border-right: 1px solid rgb(180, 180, 180);
-    padding: 0;
-    width: 0; /* Change this width at the end */
+    padding: 0px 10px; /*Change this padding at the end */
+    width: 8%; /* Change this width at the end */
     overflow: hidden;
     background-color: rgb(247, 247, 247);
     transition: 0.5s;
 
 }
 
-.leftmiddle_sidebar p {
+.collapsing_sidebar p {
     transition: 0.3s;
 }
 
-.leftmiddle_sidebar_title {
-    font-size: 17px;
-    font-weight: 600;
+.collapsing_sidebar_title {
+    font-size: 100%;
+    font-weight: 900;
+    margin: 4%;
 }
 
-.leftmiddle_sidebar_content {
-    font-size: 15px;
-    border: 1px solid black;
-    padding: 2px;
+.list {
+    background: #e91e63;
+    height: 5%;
+    margin: 4%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: grab;
 }
 
-.leftmiddle_sidebar a {
+.list img {
+    width: 5%;
+    margin: 7%;
 }
 
 /* Middle Sidebar Styling */
@@ -159,6 +171,8 @@
     width: 40%;
     height: 100%;
 }
+
+/* Right Sidebar Styling */
 
 .right_sidebar {
     display: flex;
