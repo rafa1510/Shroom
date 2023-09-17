@@ -154,6 +154,7 @@
     cursor: grab;
     text-wrap:nowrap;
     border-radius: 15px;
+    font-size: 100%;
 }
 
 .list img {
@@ -166,7 +167,10 @@
 .middle_sidebar {
     display: flex;
     flex-direction: column;
-    background-color: rgb(142, 181, 255);
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background: radial-gradient(circle, transparent 20%, rgb(247, 247, 247) 20%, rgb(247, 247, 247) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, rgb(247, 247, 247) 20%, rgb(247, 247, 247) 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#d4d4d4 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #d4d4d4 2px, rgb(247, 247, 247) 2px) -1px 0;
+    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
     flex: 1;
     width: 40%;
     height: 100%;
