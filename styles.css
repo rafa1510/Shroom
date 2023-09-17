@@ -129,11 +129,9 @@
     height: 100%;
     border-right: 1px solid rgb(180, 180, 180);
     padding: 0px 10px; /*Change this padding at the end */
-    width: 8%; /* Change this width at the end */
-    overflow: hidden;
+    width: 10%; /* Change this width at the end */
     background-color: rgb(247, 247, 247);
     transition: 0.5s;
-
 }
 
 .collapsing_sidebar p {
@@ -154,6 +152,8 @@
     display: flex;
     align-items: center;
     cursor: grab;
+    text-wrap:nowrap;
+    border-radius: 15px;
 }
 
 .list img {
